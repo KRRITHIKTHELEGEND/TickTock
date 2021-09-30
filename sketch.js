@@ -46,13 +46,13 @@ function draw(){
     
     strokeWeight(10);
     noFill();
-    //Seconds
+    
     stroke(255,0,0);
     arc(0,0,300,300,0,scAngle);
-    //Minutes
+    
     stroke(0,255,0);
     arc(0,0,280,280,0,mnAngle);
-    //Hour
+    
     stroke(0,0,255);
     arc(0,0,260,260,0,hrAngle);
 }
